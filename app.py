@@ -25,8 +25,7 @@ def chat():
 
     return jsonify(response.json())
 
-def handler(event, context):
-    return app(event, context)
+
 
 
 if __name__ == '__main__':
